@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPrinciples", "DesignP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Duck", "DesignPrinciples\Duck\Duck.csproj", "{9FBF5C58-D497-45E3-84AA-74D6C0473EBB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObserverPattern", "ObserverPattern", "{F2DD6CD8-FD9B-44C5-9463-863D1F757EFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "DesignPrinciples\ObserverPattern\WeatherStation\WeatherStation.csproj", "{705004B5-14D0-4957-9605-015AFD391539}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +36,22 @@ Global
 		{9FBF5C58-D497-45E3-84AA-74D6C0473EBB}.Release|x64.Build.0 = Release|Any CPU
 		{9FBF5C58-D497-45E3-84AA-74D6C0473EBB}.Release|x86.ActiveCfg = Release|Any CPU
 		{9FBF5C58-D497-45E3-84AA-74D6C0473EBB}.Release|x86.Build.0 = Release|Any CPU
+		{705004B5-14D0-4957-9605-015AFD391539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705004B5-14D0-4957-9605-015AFD391539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705004B5-14D0-4957-9605-015AFD391539}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{705004B5-14D0-4957-9605-015AFD391539}.Debug|x64.Build.0 = Debug|Any CPU
+		{705004B5-14D0-4957-9605-015AFD391539}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{705004B5-14D0-4957-9605-015AFD391539}.Debug|x86.Build.0 = Debug|Any CPU
+		{705004B5-14D0-4957-9605-015AFD391539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705004B5-14D0-4957-9605-015AFD391539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705004B5-14D0-4957-9605-015AFD391539}.Release|x64.ActiveCfg = Release|Any CPU
+		{705004B5-14D0-4957-9605-015AFD391539}.Release|x64.Build.0 = Release|Any CPU
+		{705004B5-14D0-4957-9605-015AFD391539}.Release|x86.ActiveCfg = Release|Any CPU
+		{705004B5-14D0-4957-9605-015AFD391539}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9FBF5C58-D497-45E3-84AA-74D6C0473EBB} = {A7182D95-6DC1-43F3-98E6-FE596383D7CA}
+		{F2DD6CD8-FD9B-44C5-9463-863D1F757EFD} = {A7182D95-6DC1-43F3-98E6-FE596383D7CA}
+		{705004B5-14D0-4957-9605-015AFD391539} = {F2DD6CD8-FD9B-44C5-9463-863D1F757EFD}
 	EndGlobalSection
 EndGlobal
