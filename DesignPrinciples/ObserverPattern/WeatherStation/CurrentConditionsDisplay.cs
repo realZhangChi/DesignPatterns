@@ -22,7 +22,7 @@ namespace WeatherStation
 
         public void Display()
         {
-            Console.WriteLine($"Current conditions: {_temperature} F degrees and {_humidity}% humidity");
+            Console.WriteLine($"Current conditions: {_temperature}F degrees and {_humidity}% humidity");
         }
     }
 }
